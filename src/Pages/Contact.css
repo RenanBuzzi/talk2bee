@@ -1,0 +1,109 @@
+.contactImg {
+  width: 50%;
+  height: 50%;
+}
+.ContainerRight {
+  margin-top: -650px;
+  height: 50%;
+  margin-left: 50%;
+  margin-bottom: 20px;
+}
+.ContainerLeft {
+  height: 50%;
+  float: left;
+}
+
+.textfield {
+  margin-top: 30px;
+  margin-bottom: 60px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+.buttonSubmit {
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 1600px) {
+  .contactImg {
+    width: 50%;
+    height: 50%;
+  }
+  .ContainerRight {
+    margin-top: -650px;
+    height: 50%;
+    margin-left: 50%;
+    margin-bottom: 20px;
+  }
+  .ContainerLeft {
+    height: 50%;
+    float: left;
+  }
+
+  .textfield {
+    margin-top: 30px;
+    margin-bottom: 60px;
+    margin-left: 10px;
+    margin-right: 20px;
+  }
+  .buttonSubmit {
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .contactImg {
+    width: 50%;
+    height: 50%;
+  }
+  .ContainerRight {
+    margin-top: -650px;
+    height: 50%;
+    margin-left: 50%;
+    margin-bottom: 20px;
+  }
+  .ContainerLeft {
+    height: 50%;
+    float: left;
+  }
+
+  .textfield {
+    margin-top: 30px;
+    margin-bottom: 60px;
+    margin-left: 10px;
+    margin-right: 20px;
+  }
+  .buttonSubmit {
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+}
+/*Mobile*/
+@media screen and (max-width: 600px) {
+  .contactImg {
+    width: 50%;
+    height: 50%;
+  }
+  .ContainerRight {
+    margin-top: -650px;
+    height: 50%;
+    margin-left: 50%;
+    margin-bottom: 20px;
+  }
+  .ContainerLeft {
+    height: 50%;
+    float: left;
+  }
+
+  .textfield {
+    margin-top: 30px;
+    margin-bottom: 60px;
+    margin-left: 10px;
+    margin-right: 20px;
+  }
+  .buttonSubmit {
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+}

@@ -1,48 +1,44 @@
-import React, { useState, useEffect } from "react";
-import { Link, useHistory } from "react-router-dom";
-import "../Pages/Navbar.css";
-import logoTalk2Be from "../images/bee.jpg";
+import React, { useState, useEffect } from 'react'
+import { Link, useHistory } from 'react-router-dom'
+import '../Pages/Navbar.css'
+import logoTalk2Be from '../images/bee.jpg'
 
 function Navbar() {
-  let history = useHistory();
-  const [click, setClick] = useState(false);
-  const [button, setButton] = useState(true);
+  let history = useHistory()
+  const [click, setClick] = useState(false)
+  // eslint-disable-next-line no-unused-vars
+  const [button, setButton] = useState(true)
 
-  const handleClick = () => setClick(!click);
-  const closeMobileMenu = () => setClick(false);
+  const handleClick = () => setClick(!click)
+  const closeMobileMenu = () => setClick(false)
 
   const redirectHome = () => {
-    history.push("/home");
-  };
+    history.push('/home')
+  }
 
   const showButton = () => {
     if (window.innerWidth < 960 || window.innerWidth > 960) {
-      setButton();
+      setButton()
     } else {
-      setButton(true);
+      setButton(true)
     }
-  };
+  }
 
   useEffect(() => {
-    showButton();
-  }, []);
+    showButton()
+  }, [])
 
-  window.addEventListener("resize", showButton);
+  window.addEventListener('resize', showButton)
 
   return (
     <>
       <nav className="navbar">
         <div>
-          <img
-            className="navbar-logo"
-            src={logoTalk2Be}
-            alt="Logo"
-            onClick={redirectHome}
-          />
+          <img className="navbar-logo" src={logoTalk2Be} alt="Logo" onClick={redirectHome} />
           <div className="menu-icon" onClick={handleClick}>
-            <i className={click ? "fa fa-times" : "fa fa-bars"} />
+            <i className={click ? 'fa fa-times' : 'fa fa-bars'} />
           </div>
-          <ul className={click ? "nav-menu active" : "nav-menu"}>
+          <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <div className="logoMobileBee"></div>
             <li className="nav-item">
               <Link to="/Home" className="nav-links" onClick={closeMobileMenu}>
@@ -55,11 +51,7 @@ function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link
-                to="/Contact"
-                className="nav-links"
-                onClick={closeMobileMenu}
-              >
+              <Link to="/Contact" className="nav-links" onClick={closeMobileMenu}>
                 Contact
               </Link>
             </li>
@@ -67,6 +59,6 @@ function Navbar() {
         </div>
       </nav>
     </>
-  );
+  )
 }
-export default Navbar;
+export default Navbar

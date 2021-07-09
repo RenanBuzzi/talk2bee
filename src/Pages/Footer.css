@@ -5,6 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
 }
 
 .footer-subscription {
@@ -72,12 +73,15 @@
 
 .footer-link-items > h2 {
   color: #fff;
+  margin-left: 10px;
+  
 }
 
 .footer-link-items a {
   color: #fff;
   text-decoration: none;
   margin-bottom: 0.5rem;
+  margin-left: 10px;
 }
 
 .footer-link-items a:hover {
@@ -136,6 +140,7 @@
 .website-rights {
   color: #fff;
   margin-bottom: 16px;
+  margin-left: 300px;
 }
 
 @media screen and (max-width: 820px) {
@@ -160,5 +165,10 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 400px) {
+  .website-rights {
+    color: #fff;
+    margin-bottom: 16px;
+    margin-left: 30px;
+  }
 }

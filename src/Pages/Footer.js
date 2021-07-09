@@ -7,7 +7,7 @@ function Footer() {
     <div className="footer-container">
       <section className="footer-subscription">
         <p className="footer-subscription-heading">
-          All details about my page and some extra information.
+          {/* All details about my page and some extra information. */}
         </p>
       </section>
       <div class="footer-links">
@@ -28,39 +28,39 @@ function Footer() {
         <div className="footer-link-wrapper">
           <div class="footer-link-items">
             <h2>Social Media</h2>
-            <Link to="https://www.linkedin.com/in/renangasparbuzzi">
+            <Link to="https://www.linkedin.com/in/elainekaizer">
               Linkedin
             </Link>
-            <Link to="https://github.com/RenanBuzzi">GitHub</Link>
+            {/* <Link to="https://github.com/RenanBuzzi">GitHub</Link> */}
           </div>
         </div>
       </div>
       <section class="social-media">
         <div class="social-media-wrap">
           <div class="footer-logo">
-            <Link to="/" className="social-logo">
+            {/* <Link to="/" className="social-logo">
               <i class="fa fa-code" aria-hidden="true"></i>&nbsp;Renan
               Buzzi&nbsp; <i class="fa fa-code" aria-hidden="true"></i>
-            </Link>
+            </Link> */}
           </div>
-          <small class="website-rights">Renan Buzzi © 2021</small>
+          <small class="website-rights">talk2bee © 2021</small>
           <div class="social-icons">
-            <a
+            {/* <a
               class="social-icon-link"
               href="https://github.com/RenanBuzzi"
               target=""
               aria-label="GitHub"
             >
               <i class="fa fa-github" />
-            </a>
-            <a
+            </a> */}
+            {/* <a
               class="social-icon-link"
               href="https://www.linkedin.com/in/renangasparbuzzi"
               target=""
               aria-label="Linkedin"
             >
               <i class="fab fa-linkedin" />
-            </a>
+            </a> */}
           </div>
         </div>
       </section>

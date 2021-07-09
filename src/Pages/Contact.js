@@ -63,7 +63,7 @@ export default function Contact() {
       return Object.values(temp).every((x) => x === "");
   };
 
-  const { values, setValues, errors, setErrors, handleInputChange, resetForm } =
+  const { values, errors, setErrors, handleInputChange, resetForm } =
     useForm(initialFieldValues, validate);
 
   const handleSubmit = (e) => {

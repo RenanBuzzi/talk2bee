@@ -1,7 +1,7 @@
 import React from "react";
 import "../App.css";
 import Footer from "./Footer";
-import "../pages/About.css";
+import "./About.css";
 
 const About = () => {
   return (

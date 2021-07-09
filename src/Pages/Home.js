@@ -2,7 +2,7 @@ import React from "react";
 import "../App.css";
 import Footer from "./Footer";
 import talk2beimg from "../images/Originav2.png";
-import "../pages/Home.css";
+import "./Home.css";
 import Slider from "../slideImages/Slider";
 import SliderMobile from "../sliderMobileScreens/SliderMobileImages";
 

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link, useHistory } from "react-router-dom";
-import "../pages/Navbar.css";
+import "./Navbar.css";
 import logoTalk2Be from "../images/bee.ico";
 
 function Navbar() {

@@ -1,7 +1,7 @@
-import slide1 from "../images/slide/Slide1.jpg";
-import slide2 from "../images/slide/Slide2.jpg";
-import slide3 from "../images/slide/Slide3.jpg";
-import slide4 from "../images/slide/Slide4.jpg";
+import slide1 from "../images/Slide/Slide1.jpg";
+import slide2 from "../images/Slide/Slide2.jpg";
+import slide3 from "../images/Slide/Slide3.jpg";
+import slide4 from "../images/Slide/Slide4.jpg";
 
 
 const slides = [

@@ -3,7 +3,7 @@ import "../App.css";
 import Footer from "./Footer";
 import talk2beimg from "../images/Originav2.png";
 import "./Home.css";
-import Slider from "../slideImages/Slider";
+import Slider from "../SlideImages/Slider";
 import SliderMobile from "../sliderMobileScreens/SliderMobileImages";
 
 const Home = () => {

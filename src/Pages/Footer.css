@@ -65,6 +65,7 @@
   text-align: left;
   width: 160px;
   box-sizing: border-box;
+  margin: auto;
 }
 
 .footer-link-items h2 {

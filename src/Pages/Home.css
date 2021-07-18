@@ -41,12 +41,12 @@
   }
   .logoTalkToBee {
     width: 50%;
-    height: 500px !important;
+    height: 600px !important;
   }
   .TextWelcome {
     text-align: center;
     margin-left: 50%;
-    margin-top: -400px;
+    margin-top: -360px;
     font-size: 40px;
   }
   .middleText {
@@ -69,12 +69,12 @@
 @media screen and (max-width: 600px){
   .main {
     width: 100%;
-    height: 1100px !important;
+    height: 750px !important;
     background: #dd9f0d;
   }
   .logoTalkToBee {
-    /* height: 100%; */
     width: 100%;
+    height: 350px !important;
   }
   .TextWelcome {
     margin-left: 10px;
@@ -97,9 +97,5 @@
     margin-right: 20px;
     font-size: 25px;
     font-weight: bold;
-  }
-  .line {
-    width: 100%;
-    height: 10px;
   }
 }

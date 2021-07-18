@@ -365,6 +365,11 @@
       display: flex;
       margin-top: -10px;
     }
+    .qrcode{
+      width: 30%;
+      margin-top: 100px;
+      margin-left: 150px;
+    }
   }
   @media screen and (max-device-width: 1366px), screen and (max-width: 322px) {
     .navbar-logo img {

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link, useHistory } from "react-router-dom";
 import "./Navbar.css";
 import logoTalk2Be from "../images/bee.ico";
+import frame from "../images/QRCode/frame.png";
 
 function Navbar() {
   let history = useHistory();
@@ -62,6 +63,9 @@ function Navbar() {
               >
                 Contact
               </Link>
+            </li>
+            <li className="nav-item">
+            <img className="qrcode" src={frame} alt="qrcode" />
             </li>
           </ul>
         </div>

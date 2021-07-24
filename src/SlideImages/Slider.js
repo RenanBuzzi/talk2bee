@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import sliderImage from "./SliderImages";
-import Dots from "./Dots";
 import SliderContent from "./SliderContent";
 import "./slide.css";
 

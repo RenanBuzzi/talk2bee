@@ -27,10 +27,10 @@ function Slider() {
           setActiveIndex(activeIndex === len ? 0 : activeIndex + 1)
         }
       ></Arrows> */}
-      <Dots
+      {/* <Dots
         activeIndex={activeIndex}
         onclick={(activeIndex) => setActiveIndex(activeIndex)}
-      ></Dots>
+      ></Dots> */}
     </div>
   );
 }

@@ -1,0 +1,5 @@
+.displayVideo{
+    width: auto;
+    display: flex;
+    justify-content: center;
+}

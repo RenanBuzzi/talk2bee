@@ -11,7 +11,7 @@ function SliderMobileImages() {
   useEffect(() => {
     const interval = setInterval(() => {
       setActiveIndex(activeIndex === len ? 0 : activeIndex + 1);
-    }, 7000);
+    }, 3000);
     return () => clearInterval(interval);
   }, [activeIndex]);
 

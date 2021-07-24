@@ -65,7 +65,25 @@ function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-            <img className="qrcode" src={frame} alt="qrcode" />
+              <Link
+                to="/HowItWorks"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
+                How it works
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                to="/JoingHive"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
+                Joing the hive
+              </Link>
+            </li>
+            <li className="nav-item">
+              <img className="qrcode" src={frame} alt="qrcode" />
             </li>
           </ul>
         </div>

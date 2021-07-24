@@ -3,7 +3,7 @@
 @media screen and (max-width: 2000px) {
   .navbar {
     background: #1e0253;
-    height: 1000px;
+    height: 80px;
     width: auto;
     display: flex;
     text-align: right;

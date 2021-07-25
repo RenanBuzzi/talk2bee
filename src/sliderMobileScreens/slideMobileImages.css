@@ -38,7 +38,7 @@ margin-right: auto;
 margin-bottom: 50px;
 }
 
-/*Meidle Screen*/
+/*Laptop*/
 @media only screen and (max-width: 1600px) {
 .slideM-image {
 width: 200px;
@@ -48,19 +48,20 @@ object-fit: cover;
 margin-left: 580px;
 margin-right: auto;
 margin-bottom: 50px;
+padding-top: 50px;
 }
 }
 
 /*Ipad Pro*/
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1024px){
 .slideM-image {
 width: 200px;
 position: flex;
 align-items: center;
 object-fit: cover;
-margin-left: 300px;
+margin-left: 310px;
 margin-bottom: 50px;
-padding-top: 200px;
+padding-top: 300px;
 }
 }
 
@@ -86,15 +87,15 @@ margin-bottom: 50px;
 }
 
 @media only screen and (max-width: 736px) and (max-height:414px) {
-  .slideM-image {
-  width: 100px;
-  position: flex;
-  align-items: center;
-  object-fit: cover;
-  margin-left: auto;
-  padding-top: 100px;
-  margin-bottom: 50px;
-  }
+.slideM-image {
+width: 100px;
+position: flex;
+align-items: center;
+object-fit: cover;
+margin-left: auto;
+padding-top: 100px;
+margin-bottom: 50px;
+}
 
 }
 /*IPad*/
@@ -104,11 +105,12 @@ width: 200px;
 position: flex;
 align-items: center;
 object-fit: cover;
-padding-top: 100px;
-margin-left: 3505px;
+margin-left: 280px;
 margin-bottom: 50px;
+padding-top: 150px;
 }
 }
+
 /*Iphone X Horizontal*/
 @media only screen and (max-width: 812px) and (max-height:375) {
 .slideM-image {
@@ -117,13 +119,13 @@ position: flex;
 align-items: center;
 padding-top: 300px;
 object-fit: cover;
-margin-left: 250px;
+margin-left: 250px !important;
 margin-right: auto;
 margin-bottom: 50px;
 }
 }
 /*Iphone X */
-@media only screen and (max-width: 375px) and (max-height:812) {
+@media only screen and (max-width: 375px) and (max-height:1024) {
 .slideM-image {
 width: 150px;
 position: flex;
@@ -159,36 +161,36 @@ object-fit: cover;
 margin-left: 230px;
 margin-right: auto;
 margin-bottom: 50px;
-padding-top: 180px;
+padding-top: 250px;
 }
 }
 
 /*Responsive*/
 @media only screen and (max-width: 666px) and (max-height:476px) {
+.slideM-image {
+width: 200px;
+position: flex;
+align-items: center;
+object-fit: cover;
+margin-left: 190px;
+margin-right: auto;
+margin-bottom: 50px;
+padding-top: 100px;
+}
+}
+
+@media only screen and (max-width: 476px) and (max-height:666px) {
   .slideM-image {
   width: 200px;
   position: flex;
   align-items: center;
   object-fit: cover;
-  margin-left: 190px;
+  margin-left: 230px;
   margin-right: auto;
   margin-bottom: 50px;
-  padding-top: 100px;
+  padding-top: 300px;
   }
   }
-
-  @media only screen and (max-width: 476px) and (max-height:666px) {
-    .slideM-image {
-    width: 200px;
-    position: flex;
-    align-items: center;
-    object-fit: cover;
-    margin-left: 230px;
-    margin-right: auto;
-    margin-bottom: 50px;
-    padding-top: 300px;
-    }
-    }
 
 
 /*Surface Duo*/
@@ -198,11 +200,24 @@ width: 200px;
 position: flex;
 align-items: center;
 object-fit: cover;
-margin-left: 180px;
-padding-top: 100px;
+margin-left: 170px;
+padding-top: 50px;
 margin-bottom: 50px;
 }
 }
+
+/*Surface Duo*/
+@media only screen and (max-width: 720) and (max-height:540px) {
+  .slideM-image {
+  width: 200px;
+  position: flex;
+  align-items: center;
+  object-fit: cover;
+  margin-left: 120px;
+  padding-top: 100px;
+  margin-bottom: 50px;
+  }
+  }
 
 /*Meidle Screen*/
 @media only screen and (max-width: 414px) {
@@ -214,6 +229,7 @@ object-fit: cover;
 margin-left: 110px;
 margin-right: auto;
 margin-bottom: 50px;
+padding-top: 50px;
 }
 }
 /*Pixel 2*/

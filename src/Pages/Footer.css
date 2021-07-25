@@ -571,7 +571,6 @@ max-width: 900px;
 display: flex;
 justify-content: center;
 line-height: 1.5;
-
 }
 
 .footer-link-wrapper {
@@ -585,22 +584,21 @@ display: flex;
 flex-direction: column;
 align-items: flex-start;
 text-align: left;
-margin-left: auto;
 width: 200px;
 box-sizing: border-box;   
 }
 
 .footer-link-items > h2 {
-  padding-top: 20px;
   color: #dd9f0d;
-  font-size: 25px;
+  font-size: 20px;
+  width: 200px;
   }
   
   .footer-link-items a {
   color: #fff;
   text-decoration: none;
   margin-bottom: 0.3rem;
-  font-size: 20px;
+  font-size: 15px;
   width: auto;
   }
   
@@ -622,8 +620,6 @@ box-sizing: border-box;
   .social-icon-link {
   color: #fff;
   font-size: 40px;
-  padding-right: 90px;
-  padding-left: 90px;
   }
   
   .social-media-wrap {

@@ -58,9 +58,9 @@ width: 200px;
 position: flex;
 align-items: center;
 object-fit: cover;
-margin-left: 410px;
+margin-left: 300px;
 margin-bottom: 50px;
-padding-top: 100px;
+padding-top: 200px;
 }
 }
 
@@ -104,8 +104,8 @@ width: 200px;
 position: flex;
 align-items: center;
 object-fit: cover;
-padding-top: 200px;
-margin-left: 280px;
+padding-top: 100px;
+margin-left: 3505px;
 margin-bottom: 50px;
 }
 }
@@ -199,7 +199,7 @@ position: flex;
 align-items: center;
 object-fit: cover;
 margin-left: 180px;
-padding-top: 50px;
+padding-top: 100px;
 margin-bottom: 50px;
 }
 }

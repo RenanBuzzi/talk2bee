@@ -30,11 +30,11 @@
 @media screen and (max-width: 1600px) {
   .mainContactPart1 {
     width: 50%;
-    height: 900px;
+    height: 600px;
   }
 
   .mainContactImage {
-    height: 50%;
+    height: 550px;
     width: 100%;
   }
   .mainContact {
